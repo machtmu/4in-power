@@ -805,6 +805,252 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PN ",
+          "name": "LCSC PN ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PART NAME",
+          "name": "LCSC PART NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART",
+          "name": "MANUFACTURER PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - SATURATION(ISAT)",
+          "name": "CURRENT - SATURATION(ISAT)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FREQUENCY-MAX",
+          "name": "FREQUENCY-MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B CONSTANT (25℃/85℃)",
+          "name": "B CONSTANT (25℃/85℃)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB PART CLASS",
+          "name": "JLCPCB PART CLASS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMPEDANCE",
+          "name": "IMPEDANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INTERFACE TYPE",
+          "name": "INTERFACE TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INTERFACE LENGTH/HEIGHT",
+          "name": "INTERFACE LENGTH/HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF PORTS",
+          "name": "NUMBER OF PORTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE",
+          "name": "OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE RANGE",
+          "name": "OPERATING TEMPERATURE RANGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B CONSTANT (25℃/75℃)",
+          "name": "B CONSTANT (25℃/75℃)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER",
+          "name": "POWER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC RESISTANCE(DCR)",
+          "name": "DC RESISTANCE(DCR)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE",
+          "name": "DEVICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RATED CURRENT",
+          "name": "RATED CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RATINGS",
+          "name": "RATINGS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RESISTANCE @ 25℃",
+          "name": "RESISTANCE @ 25℃",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RESISTANCE TOLERANCE",
+          "name": "RESISTANCE TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RF SERIES",
+          "name": "RF SERIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INTERFACE DIAMETER",
+          "name": "INTERFACE DIAMETER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STEADY STATE CURRENT (MAX)",
+          "name": "STEADY STATE CURRENT (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STYLE",
+          "name": "STYLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER FOOTPRINT",
+          "name": "SUPPLIER FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART",
+          "name": "SUPPLIER PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOL",
+          "name": "SYMBOL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B CONSTANT TOLERANCE",
+          "name": "B CONSTANT TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigKey Link",
+          "name": "DigKey Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B CONSTANT (25℃/100℃)",
+          "name": "B CONSTANT (25℃/100℃)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ADD INTO BOM",
+          "name": "ADD INTO BOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONVERT TO PCB",
+          "name": "CONVERT TO PCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B CONSTANT (25℃/50℃)",
+          "name": "B CONSTANT (25℃/50℃)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONNECTOR TYPE",
+          "name": "CONNECTOR TYPE",
+          "show": false
         }
       ],
       "filter_string": "",
