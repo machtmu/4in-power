@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "recovery.kicad_pro",
+    "filename": "power.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -842,7 +842,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "=",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -858,6 +858,14 @@
     [
       "612ece3f-e722-4b33-8111-645d24cfcf05",
       "Root"
+    ],
+    [
+      "481f8495-e6f4-4419-b814-75b9fa5ac0d2",
+      "digital"
+    ],
+    [
+      "b5ab9921-5796-498c-b0d6-2d1294fdeff4",
+      "power"
     ]
   ],
   "text_variables": {}
