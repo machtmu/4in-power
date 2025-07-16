@@ -9535,7 +9535,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN " "C2837210"
+		(property "LCSC PN" "C2837210"
 			(at 180.848 27.178 0)
 			(effects
 				(font
