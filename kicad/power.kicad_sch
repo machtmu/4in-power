@@ -2245,16 +2245,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 78.74) (xy 208.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14591d15-0eaf-43b8-aba4-6c9c95fb1327")
-	)
-	(wire
-		(pts
 			(xy 91.44 110.49) (xy 91.44 115.57)
 		)
 		(stroke
@@ -2415,16 +2405,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 74.93) (xy 208.28 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b16d5d4b-6cb9-499d-81e7-6650f20b9439")
-	)
-	(wire
-		(pts
 			(xy 121.92 95.25) (xy 121.92 100.33)
 		)
 		(stroke
@@ -2524,16 +2504,6 @@
 		(uuid "40385932-0a86-4bb5-9fbd-fd397ccd9dc7")
 	)
 	(label "USB_D+"
-		(at 199.39 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61fdac30-a5fd-4703-a629-e6c4bf8a1e9f")
-	)
-	(label "USB_D+"
 		(at 54.61 58.42 0)
 		(effects
 			(font
@@ -2542,16 +2512,6 @@
 			(justify left bottom)
 		)
 		(uuid "e8552d18-b638-40c4-a6eb-fb001d208d4c")
-	)
-	(label "USB_D+"
-		(at 199.39 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed892550-4938-4818-ac37-86e08781629c")
 	)
 	(global_label "CANL"
 		(shape bidirectional)
@@ -5242,68 +5202,6 @@
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "R2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 208.28 68.58)
-		(size 41.91 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "481f8495-e6f4-4419-b814-75b9fa5ac0d2")
-		(property "Sheetname" "digital"
-			(at 208.28 67.8684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "digital.kicad_sch"
-			(at 208.28 94.5646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB_D+" input
-			(at 208.28 74.93 180)
-			(uuid "a299ca3a-6bbe-4dd7-bab1-ff51c9fd1269")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_D-" input
-			(at 208.28 78.74 180)
-			(uuid "7a19f628-65fd-45e1-affa-f1c5c3067a56")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "power"
-				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(page "2")
 				)
 			)
 		)
