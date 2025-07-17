@@ -1968,16 +1968,6 @@
 		)
 		(uuid "40103568-e2a1-404f-9b54-62bc3c256f41")
 	)
-	(text "find out values for CC pins for max current (2 or 3A)"
-		(exclude_from_sim no)
-		(at 82.042 54.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8cf94e90-6e46-488f-bec6-e9108e661bc9")
-	)
 	(text "Power Module 0.1.0"
 		(exclude_from_sim no)
 		(at 202.946 175.26 0)
