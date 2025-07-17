@@ -2190,6 +2190,10 @@
 		(uuid "0deecf42-76c3-41df-9b6e-0010eb7fbcde")
 	)
 	(no_connect
+		(at 91.44 90.17)
+		(uuid "12c09f82-6518-431d-97a2-5cca5ee51d6f")
+	)
+	(no_connect
 		(at 54.61 66.04)
 		(uuid "133fe76c-8c0b-4143-a433-c20560599f2d")
 	)
@@ -2214,6 +2218,10 @@
 		(uuid "432b30a5-afc2-42c7-84f2-3d564d6ccec4")
 	)
 	(no_connect
+		(at 54.61 58.42)
+		(uuid "70c5fe4e-c2d2-4ebe-ae0a-2e5cd4efe66b")
+	)
+	(no_connect
 		(at 121.92 181.61)
 		(uuid "74411156-7f15-4267-8493-9fc9adc6e8bb")
 	)
@@ -2222,8 +2230,24 @@
 		(uuid "c783d6fc-a026-4f7c-9341-d06569162dbc")
 	)
 	(no_connect
+		(at 91.44 100.33)
+		(uuid "d028c823-2b5d-4a04-8d72-aec7a662674c")
+	)
+	(no_connect
 		(at 91.44 125.73)
 		(uuid "da08de09-7788-4b8d-92a8-8e4a0a595b43")
+	)
+	(no_connect
+		(at 54.61 50.8)
+		(uuid "ee4c7fbd-28c9-4655-9489-a1b3c134058a")
+	)
+	(no_connect
+		(at 54.61 55.88)
+		(uuid "fa9f2717-bb22-4f0e-bad6-be4915de0a4c")
+	)
+	(no_connect
+		(at 54.61 53.34)
+		(uuid "fbe2543b-ca87-4a4a-a85e-745e9985d8ac")
 	)
 	(no_connect
 		(at 91.44 181.61)
@@ -2262,16 +2286,6 @@
 			(type default)
 		)
 		(uuid "51f14c4c-129a-40a4-9a22-23f9d930ee9c")
-	)
-	(wire
-		(pts
-			(xy 54.61 53.34) (xy 54.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5218fbb4-7a9a-486b-b855-d0a7f0d2dd4a")
 	)
 	(wire
 		(pts
@@ -2395,16 +2409,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 55.88) (xy 54.61 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af33d1bb-9442-4e1a-99ed-2c2920c6678b")
-	)
-	(wire
-		(pts
 			(xy 121.92 95.25) (xy 121.92 100.33)
 		)
 		(stroke
@@ -2483,16 +2487,6 @@
 		)
 		(uuid "e90d9243-d948-4ee1-8c21-e6a0625b9358")
 	)
-	(label "USB_D-"
-		(at 54.61 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f9ac9db-0733-4eb4-9989-ab51a27970d7")
-	)
 	(label "VBUS"
 		(at 54.61 38.1 0)
 		(effects
@@ -2502,60 +2496,6 @@
 			(justify left bottom)
 		)
 		(uuid "40385932-0a86-4bb5-9fbd-fd397ccd9dc7")
-	)
-	(label "USB_D+"
-		(at 54.61 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8552d18-b638-40c4-a6eb-fb001d208d4c")
-	)
-	(global_label "CANL"
-		(shape bidirectional)
-		(at 91.44 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a432149-57b4-46e9-9b2e-5e2c2a4162b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.6263 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CANH"
-		(shape bidirectional)
-		(at 91.44 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fb2db504-6760-47f0-b5f7-613d12efcdec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.3239 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VAA")
@@ -5207,7 +5147,7 @@
 		)
 	)
 	(sheet
-		(at 208.28 99.06)
+		(at 189.23 69.85)
 		(size 41.91 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5223,7 +5163,7 @@
 		)
 		(uuid "b5ab9921-5796-498c-b0d6-2d1294fdeff4")
 		(property "Sheetname" "power"
-			(at 208.28 98.3484 0)
+			(at 189.23 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5172,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 208.28 125.0446 0)
+			(at 189.23 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

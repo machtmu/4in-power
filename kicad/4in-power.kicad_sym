@@ -651,7 +651,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -45.72 90)
+				(at 12.7 -44.45 90)
 				(length 7.62)
 				(name "PGND"
 					(effects
