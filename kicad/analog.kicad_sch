@@ -1666,15 +1666,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "- get fuel guage for next version"
+	(text "double check these resistors"
 		(exclude_from_sim no)
-		(at 210.566 -12.954 0)
+		(at 124.714 66.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "4896f9cd-885a-4ccb-92e3-3ade6c509211")
+		(uuid "da8b02ea-594b-4ac6-a7c8-e4ea977ecdcb")
 	)
 	(junction
 		(at 229.87 60.96)
@@ -2131,6 +2131,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 163.83 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 163.83 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 163.83 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9722e375-1f51-475f-9888-9f0712995b10")
 		)
@@ -2397,6 +2424,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 217.17 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 217.17 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 217.17 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5dd30bda-34ea-4e40-9061-ca04d911b488")
 		)
@@ -2407,6 +2461,157 @@
 			(project "power"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05/b5ab9921-5796-498c-b0d6-2d1294fdeff4"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4in-power:MP2236CGJ-Z")
+		(at 68.58 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14ec7cb8-d89d-4efa-82b7-f3eb5adf23dc")
+		(property "Reference" "U302"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MP2236CGJ-Z"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "4in-power:TSOT23-8_MP2236C_MNP"
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2236CGJ"
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck Converter"
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C6910059"
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/Monolithic_PowerSystems-MP2236GJZ/C6910059"
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" "https://www.digikey.ca/en/products/detail/monolithic-power-systems-inc/MP2236CGJ-Z/18088928"
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Price" "3.5474"
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 68.58 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "1f40d4fa-e873-4980-a7f1-28212b40dc06")
+		)
+		(pin "1"
+			(uuid "3c3afe56-5de7-4473-a9b2-1e53e085cfd1")
+		)
+		(pin "2"
+			(uuid "2fc1e4a7-6cf0-4f96-a03d-ebee72312c2e")
+		)
+		(pin "8"
+			(uuid "943244a6-3051-43be-92c1-969e3cc042fc")
+		)
+		(pin "3"
+			(uuid "bdf55e63-8bb9-4bff-a40f-70ab90f37d00")
+		)
+		(pin "4"
+			(uuid "581aae3a-170a-4e45-9c41-1f7470b3dac8")
+		)
+		(pin "5"
+			(uuid "7dabf982-e6c2-4600-8fe9-6768b470ddd0")
+		)
+		(pin "6"
+			(uuid "6e248068-a07a-47fc-b257-14f92999b52b")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05/b5ab9921-5796-498c-b0d6-2d1294fdeff4"
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -2440,7 +2645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 127.762 52.07 90)
 			(effects
 				(font
@@ -2458,7 +2663,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "R_H"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 129.54 52.07 0)
 			(effects
 				(font
@@ -2556,6 +2788,33 @@
 			)
 		)
 		(property "JLC Price" "0.5331"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 251.46 54.61 0)
 			(effects
 				(font
@@ -2799,7 +3058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "33k"
 			(at 172.72 76.1999 0)
 			(effects
 				(font
@@ -2827,6 +3086,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -2878,7 +3164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 148.59 74.93 0)
 			(effects
 				(font
@@ -2896,7 +3182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Blue LED"
 			(at 148.59 74.93 0)
 			(effects
 				(font
@@ -2905,8 +3191,44 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 74.93 0)
+		(property "Comment" ""
+			(at 148.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 148.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 148.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603B/C2288"
+			(at 148.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2288"
+			(at 148.59 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,15 +3305,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "MP2672GD-0000-P"
-			(at 188.468 22.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC PN" "C2837210"
 			(at 188.468 22.098 0)
 			(effects
@@ -3001,8 +3314,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigKey Link" "https://www.digikey.ca/en/products/detail/monolithic-power-systems-inc/MP2672GD-0000-Z/13159530"
-			(at 191.262 18.796 0)
+		(property "JLC Price" "3.6991"
+			(at 188.468 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,8 +3323,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Price" "3.6991"
-			(at 188.468 22.098 0)
+		(property "Comment" ""
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 189.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 151.13 68.5799 0)
 			(effects
 				(font
@@ -3129,6 +3460,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 148.59 67.31 0)
 			(effects
 				(font
@@ -3207,6 +3565,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 181.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 181.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 181.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37abaf78-b7eb-4833-8a27-eb06e36d1a9b")
 		)
@@ -3241,7 +3626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 162.56 68.5799 0)
 			(effects
 				(font
@@ -3269,6 +3654,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 160.02 67.31 0)
 			(effects
 				(font
@@ -3339,6 +3751,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 116.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 116.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 116.84 52.07 0)
 			(effects
 				(font
@@ -3447,7 +3886,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "9.1k"
 			(at 132.08 63.4999 0)
 			(effects
 				(font
@@ -3456,7 +3895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 127.762 62.23 90)
 			(effects
 				(font
@@ -3474,7 +3913,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "R_L"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/18543-0805W8F9101T5E/C17855"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C17855"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -3617,6 +4101,33 @@
 				(hide yes)
 			)
 		)
+		(property "Comment" ""
+			(at 177.8 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 177.8 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 177.8 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4dec667-ab99-4d10-9110-d9e6a4a0a547")
 		)
@@ -3687,15 +4198,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "MP2236GJ-Z"
-			(at 71.12 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC PN" "C6910059"
 			(at 71.12 140.97 0)
 			(effects
@@ -3724,6 +4226,33 @@
 			)
 		)
 		(property "JLC Price" "3.5474"
+			(at 71.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 71.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 71.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
 			(at 71.12 140.97 0)
 			(effects
 				(font
@@ -3793,7 +4322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 160.02 74.93 0)
 			(effects
 				(font
@@ -3811,7 +4340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Red LED"
 			(at 160.02 74.93 0)
 			(effects
 				(font
@@ -3820,8 +4349,17 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 74.93 0)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286"
+			(at 160.02 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C2286"
+			(at 160.02 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,6 +4427,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 226.06 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" ""
+			(at 226.06 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYPE" ""
+			(at 226.06 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
