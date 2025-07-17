@@ -4390,10 +4390,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20a116a8-d692-424b-b285-069aea2a19cd")
 		(property "Reference" "U403"
-			(at 185.42 69.8499 0)
+			(at 184.912 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,8 +4400,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery"
-			(at 185.42 72.3899 0)
+		(property "Value" "Battery (MR-30)"
+			(at 179.07 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
