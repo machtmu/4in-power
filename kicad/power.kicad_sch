@@ -2177,6 +2177,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 43.18) (xy 54.61 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28bec106-de01-44f9-8faf-04833f176480")
+	)
+	(wire
+		(pts
 			(xy 121.92 105.41) (xy 121.92 110.49)
 		)
 		(stroke
@@ -2267,6 +2277,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 83.82) (xy 189.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86589984-b36a-4c0d-bc9d-51fdcf1d28f7")
+	)
+	(wire
+		(pts
 			(xy 86.36 135.89) (xy 91.44 135.89)
 		)
 		(stroke
@@ -2327,6 +2347,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 74.93) (xy 189.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75c9b3a-fd3b-466e-a310-b4d2393fe3c4")
+	)
+	(wire
+		(pts
 			(xy 91.44 115.57) (xy 91.44 120.65)
 		)
 		(stroke
@@ -2367,6 +2397,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 45.72) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7204f9f-541a-4b04-94f7-bd322a47417c")
+	)
+	(wire
+		(pts
 			(xy 91.44 156.21) (xy 91.44 151.13)
 		)
 		(stroke
@@ -2385,6 +2425,16 @@
 		)
 		(uuid "e90d9243-d948-4ee1-8c21-e6a0625b9358")
 	)
+	(label "+5V"
+		(at 182.88 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d182b01-d309-4f6e-a1c5-4db24ec81296")
+	)
 	(label "VBUS"
 		(at 54.61 38.1 0)
 		(effects
@@ -2394,6 +2444,16 @@
 			(justify left bottom)
 		)
 		(uuid "40385932-0a86-4bb5-9fbd-fd397ccd9dc7")
+	)
+	(label "VBUS"
+		(at 181.61 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7d37e65-4199-47ec-bd5e-ddc0ef55e70b")
 	)
 	(symbol
 		(lib_id "power:VAA")
@@ -2791,7 +2851,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 45.72 90)
+		(at 67.31 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2800,7 +2860,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e96e224-1df4-4959-b323-87aaa0b83a11")
 		(property "Reference" "#PWR019"
-			(at 68.58 45.72 0)
+			(at 73.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 45.72 0)
+			(at 72.39 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 45.72 0)
+			(at 67.31 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 45.72 0)
+			(at 67.31 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 45.72 0)
+			(at 67.31 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3117,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 43.18 90)
+		(at 67.31 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3066,7 +3126,7 @@
 		(fields_autoplaced yes)
 		(uuid "791764e4-5d1e-4dd1-b30c-4946ae4f7def")
 		(property "Reference" "#PWR020"
-			(at 68.58 43.18 0)
+			(at 73.66 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 43.18 0)
+			(at 72.39 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 43.18 0)
+			(at 67.31 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 43.18 0)
+			(at 67.31 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 43.18 0)
+			(at 67.31 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,15 +3184,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 45.72 90)
+		(at 63.5 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8efc66cb-3770-4ec9-aff3-55437c6275c7")
-		(property "Reference" "R3"
-			(at 59.436 49.53 90)
+		(property "Reference" "R202"
+			(at 66.04 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3201,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 60.579 47.625 90)
+			(at 65.532 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3210,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 47.498 90)
+			(at 63.5 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 45.72 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3228,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 45.72 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3237,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
-			(at 58.42 45.72 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3246,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 58.42 45.72 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3255,7 @@
 			)
 		)
 		(property "info" "5.1k ohm"
-			(at 58.42 45.72 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3264,7 @@
 			)
 		)
 		(property "price" "C$0.0006"
-			(at 58.42 45.72 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3273,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 58.42 45.72 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3282,7 @@
 			)
 		)
 		(property "LCSC PN" "C25905"
-			(at 58.42 45.72 0)
+			(at 63.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3291,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 58.42 45.72 90)
+			(at 63.5 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3300,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 58.42 45.72 90)
+			(at 63.5 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3309,7 @@
 			)
 		)
 		(property "Current Draw" ""
-			(at 58.42 45.72 90)
+			(at 63.5 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3318,7 @@
 			)
 		)
 		(property "TYPE" ""
-			(at 58.42 45.72 90)
+			(at 63.5 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3335,7 @@
 		(instances
 			(project "sensors"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R3")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -3489,15 +3549,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 43.18 270)
+		(at 63.5 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b704a36e-a182-4d61-b8ab-0025023f0bbd")
-		(property "Reference" "R4"
-			(at 57.15 39.624 90)
+		(property "Reference" "R201"
+			(at 60.96 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3566,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 56.261 41.275 90)
+			(at 61.468 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3575,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 41.402 90)
+			(at 63.5 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 43.18 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3593,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 43.18 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3602,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
-			(at 58.42 43.18 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3611,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 58.42 43.18 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3620,7 @@
 			)
 		)
 		(property "info" "5.1k ohm"
-			(at 58.42 43.18 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3629,7 @@
 			)
 		)
 		(property "price" "C$0.0006"
-			(at 58.42 43.18 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3638,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 58.42 43.18 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3647,7 @@
 			)
 		)
 		(property "LCSC PN" "C25905"
-			(at 58.42 43.18 0)
+			(at 63.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3656,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 58.42 43.18 90)
+			(at 63.5 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3665,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 58.42 43.18 90)
+			(at 63.5 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3674,7 @@
 			)
 		)
 		(property "Current Draw" ""
-			(at 58.42 43.18 90)
+			(at 63.5 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,7 +3683,7 @@
 			)
 		)
 		(property "TYPE" ""
-			(at 58.42 43.18 90)
+			(at 63.5 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3700,7 @@
 		(instances
 			(project "sensors"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "R4")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c511364c-4b07-46ad-a274-8573499ae0d9")
-		(property "Reference" "J6"
+		(property "Reference" "J201"
 			(at 39.37 30.48 0)
 			(effects
 				(font
@@ -3834,7 +3894,7 @@
 		(instances
 			(project ""
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "J6")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -4255,6 +4315,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBUS" input
+			(at 189.23 83.82 180)
+			(uuid "2085fb6c-5135-47a3-aa8c-8833e741e501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 189.23 74.93 180)
+			(uuid "65208685-511a-4e4b-93b5-778a5af9913e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
