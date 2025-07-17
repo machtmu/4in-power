@@ -376,7 +376,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN " "C2837210"
+		(property "LCSC PN" "C2837210"
 			(at 2.794 25.4 0)
 			(effects
 				(font
@@ -687,7 +687,7 @@
 				)
 			)
 			(pin power_in line
-				(at 33.02 -8.89 180)
+				(at 33.02 -11.43 180)
 				(length 7.62)
 				(name "MID"
 					(effects
@@ -705,7 +705,7 @@
 				)
 			)
 			(pin power_in line
-				(at 33.02 -13.97 180)
+				(at 33.02 -17.78 180)
 				(length 7.62)
 				(name "VCC"
 					(effects
@@ -723,7 +723,7 @@
 				)
 			)
 			(pin power_in line
-				(at 33.02 -19.05 180)
+				(at 33.02 -24.13 180)
 				(length 7.62)
 				(name "AGND"
 					(effects
@@ -741,7 +741,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -22.86 180)
+				(at 33.02 -30.48 180)
 				(length 7.62)
 				(name "NTC"
 					(effects
@@ -789,6 +789,160 @@
 					)
 				)
 				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MR30-Vertical"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MR30-Vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "4in-power:CONN-TH_MR30-Vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589835547389685760"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MR30-Vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C99873"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/Changzhou_AmassElec-MR30FB/C99875"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Price" "0.5331"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MR30-Vertical_1_0"
+			(rectangle
+				(start -2.54 -5.08)
+				(end 2.54 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.27 3.81)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

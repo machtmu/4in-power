@@ -2080,6 +2080,17 @@
 		)
 		(uuid "ad8c164e-f5aa-4daf-a0de-9c1652608549")
 	)
+	(text "Next version:\n\n- MCU and CAN\n- Fuel Guage\n- USB PD"
+		(exclude_from_sim no)
+		(at 301.752 175.768 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "c9272248-74d7-4447-8078-8b24a950e4f5")
+	)
 	(text "Gold Fingers"
 		(exclude_from_sim no)
 		(at 96.012 79.756 0)
