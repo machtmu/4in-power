@@ -92,6 +92,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLC Link" "https://jlcpcb.com/partdetail/3007016-MP2672GD_0000Z/C2837210"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "MP2672GD-0000-Z Charging Balancing"
 			(at 0 0 0)
 			(effects

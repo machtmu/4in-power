@@ -2187,6 +2187,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 81.28) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292adc2e-6f8f-42f9-aaae-0733ef136b80")
+	)
+	(wire
+		(pts
 			(xy 121.92 105.41) (xy 121.92 110.49)
 		)
 		(stroke
@@ -2277,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 83.82) (xy 189.23 83.82)
+			(xy 181.61 90.17) (xy 189.23 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2445,8 +2455,18 @@
 		)
 		(uuid "40385932-0a86-4bb5-9fbd-fd397ccd9dc7")
 	)
+	(label "+3.3V"
+		(at 182.88 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5343c609-bf21-4697-8338-21c38142cac9")
+	)
 	(label "VBUS"
-		(at 181.61 83.82 0)
+		(at 181.61 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3326,6 +3346,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Link" ""
+			(at 63.5 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "669f4eba-6b5a-4509-b33e-9e5848edeb22")
 		)
@@ -3422,6 +3451,15 @@
 			)
 		)
 		(property "TYPE" ""
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
 			(at 105.41 81.28 0)
 			(effects
 				(font
@@ -3691,6 +3729,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Link" ""
+			(at 63.5 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3724adbc-872e-4a64-b1c0-3915fcadb5e0")
 		)
@@ -3832,6 +3879,15 @@
 			)
 		)
 		(property "TYPE" ""
+			(at 39.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
 			(at 39.37 53.34 0)
 			(effects
 				(font
@@ -4035,6 +4091,15 @@
 			)
 		)
 		(property "TYPE" ""
+			(at 157.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Link" ""
 			(at 157.48 149.86 0)
 			(effects
 				(font
@@ -4268,6 +4333,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Link" ""
+			(at 157.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d98e0ca-cda9-4084-a812-ac51e259a2c9")
 		)
@@ -4318,7 +4392,7 @@
 			)
 		)
 		(pin "VBUS" input
-			(at 189.23 83.82 180)
+			(at 189.23 90.17 180)
 			(uuid "2085fb6c-5135-47a3-aa8c-8833e741e501")
 			(effects
 				(font
@@ -4330,6 +4404,16 @@
 		(pin "+5V" input
 			(at 189.23 74.93 180)
 			(uuid "65208685-511a-4e4b-93b5-778a5af9913e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3.3V" input
+			(at 189.23 81.28 180)
+			(uuid "8e189558-2c08-4505-a88b-0cdf73ff77d0")
 			(effects
 				(font
 					(size 1.27 1.27)
