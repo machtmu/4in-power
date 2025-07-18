@@ -3157,6 +3157,16 @@
 		)
 		(uuid "c6afd888-bc19-478f-96c1-7abbecb8403f")
 	)
+	(label "VCC"
+		(at 153.67 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db4d1fc3-3d10-4430-80cb-15151c8aa7ed")
+	)
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 69.85 96.52 180)
