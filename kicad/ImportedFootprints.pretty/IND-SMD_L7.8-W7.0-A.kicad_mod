@@ -1,0 +1,121 @@
+(footprint "IND-SMD_L7.8-W7.0-A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IND-SMD_L7.8-W7.0-A footprint")
+	(tags "IND-SMD_L7.8-W7.0-A footprint C2929438")
+	(property "Reference" "REF**"
+		(at -0.000102 -5.7 0)
+		(layer "F.SilkS")
+		(uuid "a13860cf-5990-45ba-91ed-084d30154753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L7.8-W7.0-A"
+		(at -0.000102 5.7 0)
+		(layer "F.Fab")
+		(uuid "02accecf-a672-4bb7-b715-362800b66f59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "927d0b59-644a-46e4-ac6e-c64f8d462f13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b224265-6ff6-4b9f-b5f2-806c11928e96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.900076 -3.7)
+		(end 3.899873 -3.7)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d020be06-ed1a-4a28-9696-6805ad7f3792")
+	)
+	(fp_line
+		(start -3.900076 3.7)
+		(end 3.899873 3.7)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59e28dc5-1831-48eb-af00-5ef80e04bcfd")
+	)
+	(fp_circle
+		(center -3.900178 3.500127)
+		(end -3.870206 3.500127)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ab7eacc2-56c6-4e81-9b07-6d5f534d6f4b")
+	)
+	(fp_text user "REF**"
+		(at -0.000102 7.7 0)
+		(layer "F.Fab")
+		(uuid "b4352220-4090-4863-acb4-74a2fb853c65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.700025 0)
+		(size 3.5 7.000025)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a30a185d-7974-4b04-9a58-ce0179b5b35e")
+	)
+	(pad "2" smd rect
+		(at 2.700025 0)
+		(size 3.5 7.000025)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6fede9cc-e49c-4971-987e-c3d0f701237a")
+	)
+	(embedded_fonts no)
+	(model "packages3d/IND-SMD_L7.8-W7.0-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
