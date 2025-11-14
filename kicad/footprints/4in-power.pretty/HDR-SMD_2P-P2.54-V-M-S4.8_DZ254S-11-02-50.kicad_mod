@@ -1,0 +1,115 @@
+(footprint "HDR-SMD_2P-P2.54-V-M-S4.8_DZ254S-11-02-50"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HDR-SMD_2P-P2.54-V-M-S4.8_DZ254S-11-02-50 footprint")
+	(tags "HDR-SMD_2P-P2.54-V-M-S4.8_DZ254S-11-02-50 footprint C17702633")
+	(property "Reference" "REF**"
+		(at -0.000013 -3.449962 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5463fcc3-aa70-4200-b8a8-0949a8ab54b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2P SMD 2.54P Jumper"
+		(at -0.000013 3.449962 0)
+		(layer "F.Fab")
+		(uuid "8cda2dba-ce7c-4f17-acf2-6449760cebaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230913/ABC6E3C99A1E0EED00221BCE3DC8DD21.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8b0b903-fd08-4169-ab3a-3e11e31b9a72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DZ254S-11-02-50"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e6a9832-ec5a-4823-b9f4-22a57570d382")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C17702633"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dd77bc9-7cd5-4d7e-bb5a-3ab6043b7190")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.540005 -2.399949)
+		(end -2.510008 -2.399949)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "836bbe06-5e02-48aa-b86d-55c5c08f3522")
+	)
+	(fp_text user "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "938282d8-5b05-4b23-a108-0ddeeaa69882")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.270003 -1.449962)
+		(size 1.01999 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9e0bcd91-87e0-48f5-885b-01d1ecf5040c")
+	)
+	(pad "2" smd rect
+		(at 1.270003 1.449962)
+		(size 1.01999 2.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "671ab2a3-6595-4953-9360-013fb25000b7")
+	)
+	(embedded_fonts no)
+	(model "models/HDR-SMD_2P-P2.54-V-M-S4.8_DZ254S-11-02-50.step"
+		(offset
+			(xyz 1.25 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

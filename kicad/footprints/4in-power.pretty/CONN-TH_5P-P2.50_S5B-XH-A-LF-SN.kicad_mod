@@ -1,0 +1,253 @@
+(footprint "CONN-TH_5P-P2.50_S5B-XH-A-LF-SN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN-TH_5P-P2.50_S5B-XH-A-LF-SN footprint")
+	(tags "CONN-TH_5P-P2.50_S5B-XH-A-LF-SN footprint C263757")
+	(property "Reference" "REF**"
+		(at -1.839835 -4.580965 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7685d905-f0e4-4a82-bc3d-8adfebc63d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "S5B-XH-A(LF)(SN)"
+		(at -0.049835 11.199898 0)
+		(layer "F.Fab")
+		(uuid "7df1b989-4b83-4b07-99a1-fc2bd3bc058d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America_S5B-XH-A-LF-SN_JST-Sales-America-S5B-XH-A-LF-SN_C263757.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0243cfc-99fc-4310-bed1-45add5dadc5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e87a9723-8778-4976-b74c-c1ab710c24d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C263757"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fcb4fc9-bda9-41c1-acfe-a34c2fe97441")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 7.40033 9.199898)
+		(end 7.40033 -2.600965)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b096d449-9d5b-4fc7-a449-46f8ab8837c2")
+	)
+	(fp_line
+		(start 6.499975 2.099975)
+		(end 6.499975 -2.600025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddc5e534-484a-475d-b793-2c20ad1e0f84")
+	)
+	(fp_line
+		(start 6.499975 -2.600025)
+		(end 7.400025 -2.600025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2284e6b6-c5be-415b-b418-eb6a0bad6129")
+	)
+	(fp_line
+		(start 4.999975 2.099975)
+		(end -6.399975 2.099975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd3ea0e7-4186-4744-ad0b-feca83abd05c")
+	)
+	(fp_line
+		(start 4.700025 2.099975)
+		(end 6.499975 2.099975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb856ea4-372f-4c8a-881d-50717d826b81")
+	)
+	(fp_line
+		(start -6.399975 2.099975)
+		(end -6.5 2)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0534179b-4789-4c84-ab8b-5be45e4c0913")
+	)
+	(fp_line
+		(start -6.5 2)
+		(end -6.5 -2.600025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "947fbccd-fb2f-4fe4-89fa-6e36e32d4997")
+	)
+	(fp_line
+		(start -6.5 -2.600025)
+		(end -7.5 -2.600025)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "000929f1-21b6-40fa-8112-d1027c724464")
+	)
+	(fp_line
+		(start -7.499365 9.199898)
+		(end 7.40033 9.199898)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "327ead68-6db7-44c9-a649-47310a81608f")
+	)
+	(fp_line
+		(start -7.499365 0)
+		(end -7.499365 9.199898)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "103d11b0-998f-4154-a5e5-99e4857a3abf")
+	)
+	(fp_line
+		(start -7.5 -2.600025)
+		(end -7.5 0.399975)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ca15ea1-c983-41de-b2c1-0cc3251a2384")
+	)
+	(fp_circle
+		(center -7.627127 -2.727965)
+		(end -7.597155 -2.727965)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ab5e098b-1260-47e5-95a7-a81305592aa5")
+	)
+	(fp_text user "REF**"
+		(at -0.049835 13.199898 0)
+		(layer "F.Fab")
+		(uuid "91db034e-45d8-4e12-8661-cea8c3b04653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -5 0)
+		(size 1.524003 1.524003)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e54f4592-0a75-461e-97c8-8d2aa0b69418")
+	)
+	(pad "2" thru_hole circle
+		(at -2.500127 0)
+		(size 1.524003 1.524003)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b6dcf06-9ec7-4719-a97a-b255fce7d6d6")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.524003 1.524003)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f1a6680-03e9-44ea-8680-3d516bc1fc2b")
+	)
+	(pad "4" thru_hole circle
+		(at 2.499873 0)
+		(size 1.524003 1.524003)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0cc2eb52-e80e-42ca-a396-9875084e64c7")
+	)
+	(pad "5" thru_hole circle
+		(at 5 0)
+		(size 1.524003 1.524003)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "530193f7-6f9c-49af-ac80-287c341336e6")
+	)
+	(embedded_fonts no)
+	(model "models/CONN-TH_5P-P2.50_S5B-XH-A-LF-SN.step"
+		(offset
+			(xyz -0 -5.5 0.000007)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
